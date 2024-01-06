@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    background-color: burlywood;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 75px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.parth{
+    flex: 3;
+}
+a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+.linkedin, .github, .projects, .about, .resume{
+    transition: transform(0.2);
+}
+.linkedin:hover, .github:hover, .projects:hover, .about:hover, .resume:hover{
+    transform: scale(1.2);
+}

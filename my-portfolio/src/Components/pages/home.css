@@ -1,0 +1,34 @@
+.mainpage{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: black;
+    color: white;
+    padding-top: 7.5%;
+}
+.imagearea{
+   padding-left: 10%;
+}
+.imagearea img {
+    height: 500px;
+    border-radius: 40%;
+}
+.description{
+    align-items: center;
+    justify-content: center;;
+}
+.carousel{
+    grid-column: 1/ span 2;
+    background-color: burlywood;
+    color: black;
+}
+@media (max-width: 850px) {
+    .imagearea img {
+        height: 350px;
+    }
+    .imagearea{
+        padding-top: 50%;
+    }
+    .mainpage{
+        padding-top: 12.5%;
+    }
+}
