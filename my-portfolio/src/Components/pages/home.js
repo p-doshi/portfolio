@@ -3,10 +3,11 @@ import './home.css';
 import QuotesCarousel from "../QuoteCaoursel";
 
 
-const Homepage = () =>{
+const Mainpage = () =>{
+    const portimagepath = process.env.PUBLIC_URL + '/portimage.jpg'
     return(
         <div className="mainpage">
-            <div className="imagearea"><img src="/portimage.jpg" alt="Potrait"/></div>
+            <div className="imagearea"><img src={portimagepath} alt="Potrait"/></div>
             <div className="description">
                 <h2>Undergraduate student at Dalhousie University pursuing a Bachelor
                     in Computer Science.
@@ -25,6 +26,6 @@ const Homepage = () =>{
             </div>
         </div>
     );
-};
+}
  
-export default Homepage;
+export default Mainpage;

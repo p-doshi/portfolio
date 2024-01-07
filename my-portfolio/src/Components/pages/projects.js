@@ -4,11 +4,13 @@ import "./projects.css";
 import { FaGithub } from "react-icons/fa";
 
 const Myprojects = () => {
- 
+    const portwebimagepath = process.env.PUBLIC_URL + '/portwebsite.png'
+    const udemydemoimagepath = process.env.PUBLIC_URL + '/udemydemo.png'
+    const nanosatelliteimagepath = process.env.PUBLIC_URL + '/nanosatellite.jpeg'
   return (
    <div className="outerbox">
         <div className="projectimage">
-            <img src="/portwebsite.png" alt="This Website"/>
+            <img src={portwebimagepath} alt="This Website"/>
         </div>
         <div className="project">
             <h2>Portfolio Website  <a href="https://github.com/p-doshi/portfolio" target="_blank"><FaGithub /></a></h2>
@@ -47,10 +49,10 @@ const Myprojects = () => {
             </p>
         </div>
         <div className="projectimage">
-            <img src="/udemydemo.png" alt="This Website"/>
+            <img src={udemydemoimagepath} alt="This Website"/>
         </div>
         <div className="projectimage">
-            <img src="/nanosatellite.jpeg" alt="This Website"/>
+            <img src={nanosatelliteimagepath} alt="This Website"/>
         </div>
         <div className="project">
             <h2>Project MANTIS  <a href="https://github.com/jacklangille/DSS-MANTIS-OBC-AI" target="_blank"><FaGithub /></a></h2>
