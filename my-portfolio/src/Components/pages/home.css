@@ -14,7 +14,8 @@
 }
 .description{
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    padding-right: 5%;
 }
 .carousel{
     grid-column: 1/ span 2;
@@ -26,7 +27,7 @@
         height: 350px;
     }
     .imagearea{
-        padding-top: 50%;
+        padding-top: 25%;
     }
     .mainpage{
         padding-top: 12.5%;

@@ -2,17 +2,21 @@
     display: flex;
     flex-direction: row;
     gap: 35px;
+    position: fixed;
     background-color: burlywood;
-    padding-left: 5%;
-    padding-right: 5%;
     height: 75px;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
     position: fixed;
 }
 .parth{
     flex: 3;
+    padding-left: 5%;
+}
+.resume{
+    padding-right: 5%;
 }
 a:link, a:visited, a:active {
     color: black;
