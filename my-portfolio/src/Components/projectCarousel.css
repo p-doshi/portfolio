@@ -1,0 +1,11 @@
+.theproj{
+    border: 0.5px solid burlywood;
+    background: black;
+    color: white;
+    height: 200px;
+    padding: 2%;
+}
+.theproj a{
+    color: white;
+    text-decoration: none;
+}

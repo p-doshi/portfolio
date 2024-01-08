@@ -12,8 +12,8 @@ const Myprojects = () => {
         <div className="projectimage">
             <img src={portwebimagepath} alt="This Website"/>
         </div>
-        <div className="project">
-            <h2>Portfolio Website  <a href="https://github.com/p-doshi/portfolio" target="_blank"><FaGithub /></a></h2>
+        <div className="project" id="portfolio">
+             <a href="https://github.com/p-doshi/portfolio" target="_blank"><h2>Portfolio Website <FaGithub /></h2></a>
             <p>
             I am proud to present my portfolio website, a testament to 
             my skills in web development. Crafted entirely by me, this 
@@ -29,8 +29,8 @@ const Myprojects = () => {
             my capabilities as a web developer.
             </p>
         </div>
-        <div className="project">
-            <h2>UdemyDemo  <a href="https://github.com/p-doshi/udemyDemo" target="_blank"><FaGithub /></a></h2>
+        <div className="project" id="udemy">
+            <a href="https://github.com/p-doshi/udemyDemo" target="_blank"><h2>UdemyDemo  <FaGithub /></h2></a>
             <p>
             My friend and I are excited to embark on a collaborative 
             journey to develop an innovative online learning platform, 
@@ -54,8 +54,8 @@ const Myprojects = () => {
         <div className="projectimage">
             <img src={nanosatelliteimagepath} alt="This Website"/>
         </div>
-        <div className="project">
-            <h2>Project MANTIS  <a href="https://github.com/jacklangille/DSS-MANTIS-OBC-AI" target="_blank"><FaGithub /></a></h2>
+        <div className="project" id="mantis">
+            <a href="https://github.com/jacklangille/DSS-MANTIS-OBC-AI" target="_blank"><h2>Project MANTIS  <FaGithub /></h2></a>
             <p>
             I am thrilled to be an integral part of the AI team within 
             my university's esteemed Space Society, i.e the Dalhousie 

@@ -37,6 +37,12 @@
   background-color: white;
   border-radius: 20%;
 }
+.outerbox h2{
+  transition: transform(0.2);
+}
+.outerbox h2:hover{
+  transform: scale(1.2);
+}
 @media (max-width: 850px) {
   .projectimage img {
       height: 250px;

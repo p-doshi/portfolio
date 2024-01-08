@@ -1,0 +1,86 @@
+.outerboxmain{
+    display: grid;
+    padding-top: 7.5%;
+    background-color: black;
+    color: white;
+    grid-template-columns: repeat(2,50%);
+}
+.abitaboutme{
+    padding-left: 2.5%;
+    grid-column: 1/ span 2;
+}
+.outerboxmain img{
+    max-height: 300px;
+    max-width: 400px;
+    object-fit: cover;
+    border: 2px solid burlywood;
+}
+.hobbies{
+    padding-left: 2.5%;
+    grid-column: 1/ span 2;
+}
+.imageone{
+    padding-left: 20%;
+    padding-top: 15%;
+}
+.imagetwo{
+    padding-top: 20%;
+}
+.imagethree{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+.imagefour{
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.imagefive{
+    padding-left: 15%;
+}
+.imagesix{
+    padding-top: 5%;
+}
+.imageseven{
+    padding-left: 40%;
+}
+.imageeight{
+   padding-left: 10%;
+   padding-top: 5%;
+}
+@media (max-width: 850px) {
+    .abitaboutme{
+        padding: 2%;
+    }
+    .outerboxmain img{
+        max-height: 250px;
+        max-width: 400px;
+        object-fit: cover;
+    }
+    .imageone{
+        padding-left: 7.5%;
+    }
+    .imagetwo{
+        padding-top: 60%;
+    }
+    .imagethree{
+        padding-left: 5%;
+    }
+    .imagefour{
+        padding-left: 40%;
+        padding-top: 5%;
+    }
+    .imagefive{
+        padding-left: 15%;
+    }
+    .imagesix{
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+    .imageseven{
+        padding-left: 10%;
+    }
+    .imageeight{
+        padding-left: 20%;
+        padding-top: 15%;
+    }
+}
